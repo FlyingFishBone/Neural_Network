@@ -3,7 +3,6 @@ import numpy as np
 import pickle
 from keras.datasets import mnist
 from random import randrange
-#https://yann.lecun.com/exdb/mnist/
 
 (train_X, train_y), (test_X, test_y) = mnist.load_data()
 
